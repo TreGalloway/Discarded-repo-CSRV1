@@ -1,19 +1,31 @@
 import Nav from './components/nav/nav.component'
 import Hero from './components/hero/hero.component'
 import About from './components/about/about.component'
-import RvCarousel from './components/rvcarousel/rvcarousel.component'
 import Footer from './components/footer/footer.component'
 import Amenities from './components/amenities/amenities.component'
+import Rentals from './components/rentals/rentals.component'
 
 function App() {
     return (
-        <div>
-            <Nav />
-            <Hero />
-            <About />
-            <Amenities />
-            <RvCarousel />
-            <Footer />
+        <div className="divide-y">
+            <div id="nav">
+                <Nav />
+            </div>
+            <div id="hero">
+                <Hero />
+            </div>
+            <div id="about">
+                <About />
+            </div>
+            <div id="amenities">
+                <Amenities />
+            </div>
+            <div id="rentals">
+                <Rentals />
+            </div>
+            <div id="footer">
+                <Footer />
+            </div>
         </div>
     )
 }

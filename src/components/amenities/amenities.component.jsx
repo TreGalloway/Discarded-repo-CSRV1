@@ -1,6 +1,6 @@
 const Amenities = () => {
     return (
-        <div className="items-center card max-w bg-base-100">
+        <div className="items-center text-white rounded-none card max-w bg-neutral">
             <div className="items-center card-body">
                 <h2 className="text-3xl underline card-title decoration-primary">
                     Amenities

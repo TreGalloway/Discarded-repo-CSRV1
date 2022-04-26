@@ -1,3 +1,8 @@
+import React from 'react'
+import { Link } from 'react-scroll/modules'
+
+import './nav.css'
+
 const Nav = () => {
     return (
         <div className="navbar bg-base-100">
@@ -24,7 +29,15 @@ const Nav = () => {
                         className="p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
                     >
                         <li>
-                            <a href="/">About</a>
+                            <Link
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}
+                            >
+                                About
+                            </Link>
                         </li>
                         {/* <li tabIndex={0}>
                             <a className="justify-between" href="/">
@@ -49,7 +62,15 @@ const Nav = () => {
                             </ul>
                         </li> */}
                         <li>
-                            <a href="/">Contact</a>
+                            <Link
+                                to="rentals"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}
+                            >
+                                Rentals
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -60,7 +81,15 @@ const Nav = () => {
             <div className="hidden navbar-center lg:flex">
                 <ul className="p-0 menu menu-horizontal">
                     <li>
-                        <a href="/">About</a>
+                        <Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >
+                            About
+                        </Link>
                     </li>
                     {/* <li tabIndex={0}>
                         <a href="/">
@@ -85,7 +114,15 @@ const Nav = () => {
                         </ul>
                     </li> */}
                     <li>
-                        <a href="/">Contact</a>
+                        <Link
+                            to="rentals"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >
+                            Rentals
+                        </Link>
                     </li>
                 </ul>
             </div>

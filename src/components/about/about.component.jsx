@@ -2,7 +2,7 @@ import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai'
 
 const About = () => {
     return (
-        <div className="items-center card max-w bg-base-100">
+        <div className="items-center card max-w bg-base-100" id="about">
             <div className="items-center card-body">
                 <h2 className="text-3xl underline card-title decoration-primary">
                     About Us
@@ -27,7 +27,7 @@ const About = () => {
                 </p>
 
                 <div className="justify-end card-actions"></div>
-                <div className="flex w-7/12">
+                <div className="flex w-7/12 place-content-center">
                     <div
                         className="flex-grow text-lg text-white border-0 btn h-15 card bg-primary rounded-box place-items-center"
                         href="tel:(713) 502-5126"

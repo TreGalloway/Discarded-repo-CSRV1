@@ -1,0 +1,3 @@
+.navbar {
+    @apply top-0 sticky;
+}
