@@ -4,6 +4,7 @@ import About from './components/about/about.component'
 import Footer from './components/footer/footer.component'
 import Amenities from './components/amenities/amenities.component'
 import Rentals from './components/rentals/rentals.component'
+import Cleaning from './components/cleaning/cleaning.component'
 
 function App() {
     return (
@@ -22,6 +23,9 @@ function App() {
             </div>
             <div id="rentals">
                 <Rentals />
+            </div>
+            <div id="cleaning">
+                <Cleaning />
             </div>
             <div id="footer">
                 <Footer />

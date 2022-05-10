@@ -13,7 +13,7 @@ const About = () => {
                     Bolivar Peninsula adjacent to one of the Bird Sanctuaries,
                     this property sits just a few short walking steps from the
                     sandy shores of Crystal Beach and local restaurants, shops
-                    and bars. The property also has a large, spacious custom
+                    and bars. The property has a large, spacious custom
                     deck/patio for relaxing and watching gorgeous sunsets. There
                     is also great fishing in the area with bait shops and local
                     boat ramps just minutes away. Let the memories with family &

@@ -14,9 +14,18 @@ const Rentals = () => {
                     <div className="justify-end card-actions"></div>
                 </div>
             </div>
-            <Rental1 />
-            <Rental2 />
-            <Rental3 />
+            <div className="px-2 lg:px-10 pb-7">
+                <Rental1 />
+            </div>
+
+            <div className="px-2 lg:px-10 pb-7">
+                <Rental2 />
+            </div>
+            <div
+                className="px-2 lg:px-10 pb-7"
+            >
+                <Rental3 />
+            </div>
         </div>
     )
 }
