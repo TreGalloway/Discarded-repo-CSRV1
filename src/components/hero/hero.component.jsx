@@ -1,23 +1,35 @@
-import image from '../../assets/woods.jpeg'
+import Link from 'react-scroll/modules/components/Link'
+
+import bothrentals2 from '/Users/tre/coastalsoulrv/src/assets/site/bothrentals2.JPEG'
 
 const Hero = () => {
     return (
         <div
-            class="hero min-h-screen"
+            className="min-h-screen hero"
             style={{
-                backgroundImage: `url(${image})`,
+                backgroundImage: `url(${bothrentals2})`,
             }}
         >
-            <div class="hero-overlay bg-opacity-60"></div>
-            <div class="hero-content text-center text-neutral-content">
-                <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-bold underline underline-offset-4 decoration-primary">
+            <div className="hero-overlay bg-opacity-30"></div>
+            <div className="text-center hero-content text-neutral-content">
+                <div className="max-w-md">
+                    <h1 className="mb-5 text-5xl font-bold underline underline-offset-4 decoration-primary">
                         CoastalSoulRV
                     </h1>
-                    <p class="mb-5 font-medium">
+                    <p className="mb-5 font-medium">
                         Let the memories with family & friends begin!
                     </p>
-                    <button class="btn btn-primary">Book Now</button>
+                    <button className="btn btn-primary">
+                        <Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >
+                            Book Now!
+                        </Link>
+                    </button>
                 </div>
             </div>
         </div>

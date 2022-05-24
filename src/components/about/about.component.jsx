@@ -30,7 +30,7 @@ const About = () => {
                 <div className="flex w-7/12 place-content-center">
                     <div
                         className="flex-grow text-lg text-white border-0 btn h-15 card bg-primary rounded-box place-items-center"
-                        href="tel:(713) 502-5126"
+                        href="tel:(713)502-5126"
                     >
                         <div className="grid grid-cols-2">
                             <div>
@@ -40,16 +40,19 @@ const About = () => {
                         </div>
                     </div>
                     <div className="divider divider-horizontal">OR</div>
-                    <div
-                        className="flex-grow text-lg text-white border-0 btn h-15 card bg-primary rounded-box place-items-center"
-                        href="mailto: Digllc2021@att.net"
-                    >
-                        <div className="grid grid-cols-2">
-                            <div>
-                                <AiOutlineMail size={25} />
+                    <div className="flex-grow text-lg text-white border-0 btn h-15 card bg-primary rounded-box place-items-center">
+                        <button
+                            onClick={() =>
+                                (window.location = 'mailto:feliciafish@att.net')
+                            }
+                        >
+                            <div className="grid grid-cols-2">
+                                <div>
+                                    <AiOutlineMail size={25} />
+                                </div>
+                                <div>Email</div>
                             </div>
-                            <div>Email</div>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>

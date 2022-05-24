@@ -68,7 +68,7 @@ const Rental3 = () => {
             <div class="card-body items-center lg:px-60">
                 <h2 class="card-title">RV Port/Site</h2>
                 <p>
-                    The psroperty has all utilities (Water/Electricity/Septic)
+                    The property has all utilities (Water/Electricity/Septic)
                     including a 30 AMP Breaker with two additional 110 plug
                     outlets on the pole. All amenities listed above included
                     with rental. The daily rental rate is $55/day (2-day

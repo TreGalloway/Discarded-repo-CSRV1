@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="flex w-full place-content-start">
                     <div
                         className="flex-grow text-lg text-white border-0 btn h-15 card bg-primary rounded-box place-items-center hover:bg-secondary"
-                        href="tel:(713) 502-5126"
+                        href="tel:+17135025126"
                     >
                         <div className="grid grid-cols-2">
                             <div>
@@ -25,16 +25,19 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="divider divider-horizontal">OR</div>
-                    <div
-                        className="flex-grow text-lg text-white border-0 btn h-15 card bg-primary rounded-box place-items-center hover:bg-secondary"
-                        href="mailto: Digllc2021@att.net"
-                    >
-                        <div className="grid grid-cols-2">
-                            <div>
-                                <AiOutlineMail size={25} />
+                    <div className="flex-grow text-lg text-white border-0 btn h-15 card bg-primary rounded-box place-items-center">
+                        <button
+                            onClick={() =>
+                                (window.location = 'mailto:feliciafish@att.net')
+                            }
+                        >
+                            <div className="grid grid-cols-2">
+                                <div>
+                                    <AiOutlineMail size={25} />
+                                </div>
+                                <div>Email</div>
                             </div>
-                            <div className="pr-2">Email</div>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
