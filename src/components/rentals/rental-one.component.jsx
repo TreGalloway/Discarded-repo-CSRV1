@@ -18,7 +18,11 @@ const Rental1 = () => {
         <div className="w-full shadow-xl card bg-base-100 justify-items-center ">
             <div className="w-full carousel">
                 <div id="slide1" className="relative w-full carousel-item">
-                    <img src={outside1} className="w-full" alt="" />
+                    <img
+                        src={outside1}
+                        className="object-contain w-full lg:object-scale-down"
+                        alt=""
+                    />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide12" className="btn btn-circle">
                             ❮
